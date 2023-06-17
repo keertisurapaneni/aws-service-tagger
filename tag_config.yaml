@@ -1,0 +1,43 @@
+IsProduction:
+  "false":
+    - development
+  "true":
+    - production
+DataClassification:
+  India:
+    - log
+    - lambda
+    - Private # For private S3 buckets
+    - rds
+    - i-
+    - vol
+    - snap
+    - cluster
+    - container
+    - service
+    - repository
+    - task
+    - fsx
+    - service
+    - dynamodb
+  Echo:
+    - cloudfront
+    - Public # For public S3 buckets
+ResiliencyTier:
+    bronze:
+    - log
+    - lambda
+    - s3
+    - rds
+    - i-
+    - vol
+    - snap
+    - cluster
+    - container
+    - service
+    - repository
+    - task
+    - fsx
+    - service
+    - cloudfront
+    - dynamodb
